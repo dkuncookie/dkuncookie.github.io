@@ -1,501 +1,108 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="丁坤的个人网站" />
-    <meta name="keywords" content="dingkun,dkun,平面设计，找设计师，设计项目合作，UI设计，网页设计，电商设计，美工，原型设计，平面设计，丁坤，设计师，个人网站，设计网站" />
-    <meta name="viewport" content="width=1220px"/>
-    <title>丁坤的个人网站</title>
-    <link href="css/index.css" type="text/css" rel="stylesheet" >
-</head>
-<body>
-    <!--撤边导航 -->
-    <div class="siderBarNav">
-        <div class="siderBar">
-            <a href="#about-me">关于我</a>
-            <a href="#per-skill">专业技能</a>
-            <a href="#ourExpress">个人经历</a>
-            <a href="#projectBox">项目经历</a>
-            <a href="#collections">作品集</a>
-            <a href="#business">承接业务</a>
-            <a href="#contactBox">联系我</a>
-            <a class="borBottom" href="#topNav">回到顶部</a>
-        </div>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
     </div>
-    <!--头部导航-->
 
-    <div class="fullBanner">
-        <header id="topNav" class="topNav">
-            <div class="nav">
-                <img class="logo" src="images/logo.png">
-                <div class="navText">
-                    <!--<a href="#topNav">首页</a>-->
-                    <a href="#about-me">关于我</a>
-                    <a href="#per-skill">专业技能</a>
-                    <a href="#ourExpress">个人经历</a>
-                    <a href="#projectBox">项目经历</a>
-                    <a href="#collections">作品集</a>
-                    <a href="#business">承接业务</a>
-                    <a href="#contactBox">联系我</a>
-                </div>
-                <div class="texiaoText">
-                    <div class="t1"><marquee>" 欢迎来到我的个人网站 "</marquee></div>
-                    <div class="t2">
-                        我是一名<br/>
-                        <span id="texiaoFont-1">UI/UX设计师</span>
-                    </div>
-                    <div class="t3">
-                        我有<br/>
-                        不一样的<span id="texiaoFont-2">视界</span>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-    </div>
-
-    <div class="contentBox">
-        <!-- about-me-->
-        <div id="about-me" class="about-me">
-            <div class="photo">
-                <img src="images/touxiang.png">
-            </div>
-            <div class="ourmessage">
-                <h1 title="我来自湖北，目前从事UI设计职业，四年工作经验，擅长UI设计，网页设计，网站开发，平面视觉设计，店铺设计和装修。具有较强的沟通">关于我</h1>
-                <div class="mymessage">
-                    <div>
-                        <p><b>姓名：</b>丁坤</p>
-                        <p><b>位置：</b>龙华新区</p>
-                        <p><b>电话：</b><a href="tell:15603028955">15603028955</a></p>
-                        <p><b>职位：</b>UI设计师</p>
-                    </div>
-                    <div class="marRight">
-                        <p><b>年龄：</b>25</p>
-                        <p><b>邮箱：</b><a href="mailto:kun702@126.com">kun702@126.com</a></p>
-                        <p><b>网址：</b><a href="http://dkun2020.cn3v.net/">dkun2020.cn3v.net/</a></p>
-                        <p><b>QQ： </b><a href="tencent://message/?uin=2079724767&Menu=yes& Service=300&sigT=42a1e5347953b64c5ff3980f8a6e644d4b31456cb0b6ac6b27663a3c4dd0f4aa14a543b1716f9d45">2079724767</a></p>
-                    </div>
-                </div>
-                <div class="icon">
-                    <a class="icon-1" href="http://cookie702.zcool.com.cn" title="站酷"></a>
-                    <a class="icon-2" href="https://i.ui.cn/ucenter/101437.html" title="UI中国"></a>
-                    <a class="icon-3" href="#" title="花瓣网"></a>
-                    <a class="icon-4" href="#" title="facebook"></a>
-                    <a class="icon-5" href="#" title="Behance"></a>
-                    <a class="icon-6" href="#" title="dribbble"></a>
-                </div>
-            </div>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <!--pessional skills -->
-        <div id="per-skill" class="per-skill">
-            <div class="boxShadow-top"></div>
-            <div class="skill">
-                <h1 class="title_bg">专业技能</h1>
-                <p class="fu-title">我会的技能很多，客官请慢慢看</p>
-                <!--<div class="tab-nav">-->
-                    <!--<span>设计软件 &ensp;|&ensp;</span>-->
-                    <!--<span>UI设计 &ensp;|&ensp;</span>-->
-                    <!--<span>网页设计&ensp;|&ensp;</span>-->
-                    <!--<span>平面设计&ensp;|&ensp;</span>-->
-                    <!--<span>电商设计</span>-->
-                <!--</div>-->
-                <!--<div class="tab-content">-->
-                    <!--<img src="images/skillbanner1.png">-->
-                    <!--<img src="images/skillbanner2.png">-->
-                    <!--<img src="images/skillbanner3.png">-->
-                    <!--<img src="images/skillbanner4.png">-->
-                    <!--<img src="images/skillbanner5.png">-->
-                    <!--<img src="images/skillbanner6.png">-->
-                <!--</div>-->
-                <div id="slide">
-                    <ul class="list tab-content">
-                        <li><a href="javascript:;"><img src="images/skillbanner1.png" alt=""></a></li>
-                        <li><a href="javascript:;"><img src="images/skillbanner2.png" alt=""></a></li>
-                        <li><a href="javascript:;"><img src="images/skillbanner3.png" alt=""></a></li>
-                        <li><a href="javascript:;"><img src="images/skillbanner4.png" alt=""></a></li>
-                        <li><a href="javascript:;"><img src="images/skillbanner5.png" alt=""></a></li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="boxShadow-bottom"></div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <!--ourExpress -->
-        <div id="ourExpress" class="ourExpress">
-            <div class="express">
-                <h1 class="title_bg">个人经历</h1>
-                <p class="fu-title">4年的设计经验，擅长UI设计、网页设计与制作、平面设计、电商设计</p>
-                <div class="expreBigBox">
-                    <div class="expreBox">
-                        <div class="expre comer">
-                            <div class="list_bg"></div>
-                            <div class="title">深圳车泰斗科技有限公司<span>视觉设计</span></div>
-                            <span>2017.10—2018.10</span>
-                            <p>工作主要负责公司官网设计和建站工作，智能平衡车产品视觉形
-                                象设计，包括包装设计，海报设计，淘宝天猫店铺装修设计，国
-                                外展会视觉形象设计。</p>
-                        </div>
-                        <div class="expre">
-                            <div class="list_bg"></div>
-                            <div class="title">武汉融汇信息科技有限公司<span>UI设计</span></div>
-                            <span>2015.12—2017.10</span>
-                            <p>工作主要负责华为项目统一训站，iLearning学习系统，华为业务
-                                管理系统的界面设计。</p>
-                        </div>
-                    </div>
-                    <div class="expreBox marRight">
-                        <div class="expre comer">
-                            <div class="list_bg"></div>
-                            <div class="title">深圳智和云联科技有限公司<span>UI设计</span></div>
-                            <span>2014.4—2015.10</span>
-                            <p>工作主要负责公司小区生活和无忧外卖APP、web端页面设计，
-                                期间负责公司运营宣传物料的设计工作。</p>
-                        </div>
+      </div>
 
-                        <div class="expre">
-                            <div class="list_bg"></div>
-                            <div class="title">深圳达内数字艺术学院<span>UID高级界面设计</span></div>
-                            <span>2013.10—2014.04</span>
-                            <p>这段时间主要学习课程有平面设计、商业美术、网站设计、网站
-                                标准布局、移动界面UI设计课程，在此培训主要设计入门，软件
-                                实操，项目实训，从中让我们掌握设计相关技能。</p>
-                        </div>
+      <hr>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--projectBox -->
-        <div id="projectBox" class="projectBox">
-            <div class="boxShadow-top"></div>
-            <div class="project">
-                <h1 class="title_bg">项目经历</h1>
-                <p class="fu-title">承接项目有：名片设计、网页设计、UI设计、电商设计、网站开发、微信小程序开发</p>
-                <div class="pro">
-                    <ul>
-                        <li>
-                            <div class="pro_name">
-                                智能平衡车产品设计
-                                <span>2017.10-2018.10</span>
-                            </div>
-                            <div class="pro_content">
-                                <h3>项目名称：</h3>
-                                <p>GYROOR官网、天猫店铺、手机APP</p>
-                                <h3>项目描述：</h3>
-                                <p>工作主要负责公司官网设计和建站工作，智能平衡车产品视觉形象设计，包括包装设计，海报设计，淘宝天猫店铺装修设计，国外展会视觉形象设计；</p>
-                                <h3>项目成果：</h3>
-                                <p> 1. gyroor网站上线<br />
-                                    2. 天猫店铺上线<br />
-                                    3. 手机APP上线
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="pro_name">
-                                华为项目系统设计
-                                <span>2015.10-2017.08</span>
-                            </div>
-                            <div class="pro_content">
-                                <h3>项目名称：</h3>
-                                <p>华为统一讯站、华为业务管理系统、
-                                    华为iLearning</p>
-                                <h3>项目描述：</h3>
-                                <p>工作主要负责公司官网设计和建站工作，智能平衡车产品视觉形象设计，包括包装设计，海报设计，淘宝天猫店铺装修设计，国外展会视觉形象设计；</p>
-                                <h3>项目成果：</h3>
-                                <p> 1. 各大项目已在华为内部上线<br />
-                                     <br />
+      <footer>
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
 
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="pro_name">
-                                无忧外卖项目设计
-                                <span>2015.6-2015.10</span>
-                            </div>
-                            <div class="pro_content">
-                                <h3>项目名称：</h3>
-                                <p>无忧外卖app和web端设计</p>
-                                <h3>项目描述：</h3>
-                                <p>无忧外卖是一家基于深圳小区老百姓、商务人士和上班族日常生活范围的本地生活服务平台，具有在线点餐，视频监控，送外卖的服务体制，而且能及时掌握您所处位置周边的生活服务信息,让您生活无忧。</p>
-                                <h3>项目成果：</h3>
-                                <p> 无忧外卖APP以上线，已在龙华地区落
-                                    地运营。目前深圳分店有：油松分店，
-                                    下水径店，上李朗分店，上李朗分店<br />
-                                    <br />
 
-                                </p>
-                            </div>
-                        </li>
-                        <li class="marRight">
-                            <div class="pro_name">
-                                小区生活项目设计
-                                <span>2014.4-2015.06</span>
-                            </div>
-                            <div class="pro_content">
-                                <h3>项目名称：</h3>
-                                <p>小区生活APP和官网设计</p>
-                                <h3>项目描述：</h3>
-                                <p>小区生活是围绕社区、业主与商家，致力于打造便捷的物业服务、社区交流与商圈服务的生活平台，为物管企业提供人性化的高效信息管理方式，为业主带来更加便利、舒适、安全的生活环境。</p>
-                                <h3>项目成果：</h3>
-                                <p>小区生活APP以上线，目前只支持
-                                    android，已在龙华地区落地运营和
-                                    推广。<br />
-                                     <br />
-
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="boxShadow-bottom"></div>
-        </div>
-
-        <!--collections -->
-        <div id="collections" class="collections">
-            <div class="collect">
-                <h1 class="title_bg">作品集</h1>
-                <p class="fu-title">每一时期的努力，都是为了更好作品的体现！</p>
-                <div>
-                    <div class="workBtn">
-                        <div class="workBtn-1"><a href="#">作品下载</a></div>
-                        <div class="workBtn-2"><a href="#">更多作品</a></div>
-                    </div>
-                    <div class="zuopingji">
-                        <a href="#">
-                            <img src="images/work_UI.png" />
-                        </a>
-                        <a href="#">
-                            <img src="images/work_web.png" />
-                        </a>
-                        <a href="#">
-                            <img src="images/work_pingmian.png" />
-                        </a>
-                        <a href="#" class="marRight">
-                            <img src="images/work_dianshang.png" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--business -->
-        <div id="business" class="business">
-            <div class="boxShadow-top"></div>
-            <div class="bus">
-                <h1 class="title_bg">承接业务</h1>
-                <p class="fu-title">精心设计每一个板块，全心全意为商家和企业视觉设计</p>
-                <div class="bus_type">
-                    <ul>
-                        <li>
-                            <div><img src="images/icon1.png"></div>
-                            <div>
-                                <p >1寸/2寸/2.5寸证件照制作</p>
-                                <p >产品图精修处理</p>
-                                <p >产品图抠图和调色</p>
-                                <p >个人写真照片后期处理</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div><img src="images/icon2.png"></div>
-                            <div>
-                                <p >名片 / logo / 标志设计</p>
-                                <p >海报 / 易拉宝 / DM传单</p>
-                                <p >企业VI形象设计 / 展会设计</p>
-                                <p >画册 / 书籍排版 / 报纸报刊</p>
-                            </div>
-                        </li>
-                        <li class="marRight">
-                            <div><img src="images/icon3.png"></div>
-                            <div>
-                                <p >企业网站 / 电商网站</p>
-                                <p >活动专题设计</p>
-                                <p >网页Banner设计</p>
-                                <p >手机网站设计</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div><img src="images/icon4.png"></div>
-                            <div>
-                                <p >网页前端页面的编码</p>
-                                <p >企业网站CMS高效建站</p>
-                                <p >域名申请与备案</p>
-                                <p >空间申请与配置</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div><img src="images/icon5.png"></div>
-                            <div>
-                                <p >1寸/2寸/2.5寸证件照制作</p>
-                                <p >产品图精修处理</p>
-                                <p >产品图抠图和调色</p>
-                                <p >个人写真照片后期处理</p>
-                            </div>
-                        </li>
-                        <li class="marRight">
-                            <div><img src="images/icon6.png"></div>
-                            <div>
-                                <p >图标 / 主题 / APP设计</p>
-                                <p >手机 / 手表 / 电视UI设计</p>
-                                <p >PC端软件界面设计</p>
-                                <p >设计规范 / 切图 / 标注</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div><img src="images/icon7.png"></div>
-                            <div>
-                                <p >H5设计与制作</p>
-                                <p >微信小程序设计与制作</p>
-                                <p >微信公众号设计维护</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div><img src="images/icon8.png"></div>
-                            <div>
-                                <p >宣传单 / 折页 / 喷绘设计</p>
-                                <p >产品说明书设计</p>
-                                <p >户外广告设计</p>
-                                <p >视频加工与剪辑处理</p>
-                            </div>
-                        </li>
-                        <li class="marRight">
-                            <div><img src="images/icon9.png"></div>
-                            <div>
-                                <p >软件设计项目签约</p>
-                                <p >产品活动设计签约</p>
-                                <p >平面设计固定签约</p>
-                                <p >设计师一对一服务</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="boxShadow-bottom"></div>
-        </div>
-
-        <!--联系我 -->
-        <div id="contactBox" class="contactBox">
-            <div class="contact">
-                <h1 class="title_bg">联系我</h1>
-                <p class="fu-title">请别客气 &ensp;&ensp; 与我联系</p>
-                <div class="con">
-                    <span class="icon_phone">15603028955</span>
-                    <span class="icon_QQ">2079724767</span>
-                    <span class="icon_email">kun702@126.com</span>
-                </div>
-                <div class="website">
-                    <ul>
-                        <li>
-                            <h3>个人店铺</h3>
-                            <a href="#">淘宝店铺</a>
-                            <a href="#">猪八戒店铺</a>
-                            <a href="#">实现网</a>
-                            <a href="#">拉钩网</a>
-                        </li>
-                        <li>
-                            <h3>设计网站</h3>
-                            <a href="#">站酷网</a>
-                            <a href="#">UI中国</a>
-                            <a href="#">68design</a>
-                            <a href="#">花瓣网</a>
-                        </li>
-                        <li>
-                            <h3>设计师导航</h3>
-                            <a href="#">adobe设计师导航</a>
-                            <a href="#">设计师导航</a>
-                            <a href="#">XXX</a>
-                            <a href="#">XXX</a>
-                        </li>
-                        <li>
-                            <h3>素材网站</h3>
-                            <a href="#">昵图网</a>
-                            <a href="#">包图网</a>
-                            <a href="#">素材中国</a>
-                            <a href="#">视觉中国</a>
-                        </li>
-                        <li>
-                            <h3>我的博客</h3>
-                            <a href="#">微博</a>
-                            <a href="#">网易博客</a>
-                            <a href="#">实现网</a>
-                            <a href="#">拉钩网</a>
-                        </li>
-                        <li>
-                            <h3>视频社区</h3>
-                            <a href="#">腾讯视频</a>
-                            <a href="#">优酷视频</a>
-                            <a href="#">爱奇艺</a>
-                            <a href="#">乐视</a>
-                        </li>
-                        <li class="marRight">
-                            <h3>求职招聘</h3>
-                            <a href="#">猎聘网</a>
-                            <a href="#">智联招聘</a>
-                            <a href="#">Boss直聘</a>
-                            <a href="#">拉钩网</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer">
-                    <div class="logo_r">
-                        <img src="images/logo_01.png">
-                    </div>
-                    <div class="foo_t">
-                        <span>
-                            <a href="#">网站首页</a>&ensp;&ensp;|&ensp;&ensp;
-                            <a href="#">关于我</a>&ensp;&ensp;|&ensp;&ensp;
-                            <a href="#">设计服务</a>&ensp;&ensp;|&ensp;&ensp;
-                            <a href="#">个人品牌</a>&ensp;&ensp;|&ensp;&ensp;
-                            <a href="#">设计导航</a>
-                        </span>
-                        <p>Copyright © 2018.shenzhen youmei design All rights reserved.</p>
-                        <p>深圳优美创意设计工作室&ensp;&ensp;&ensp;客服电话请致电：15603028955</p>
-                    </div>
-                    <div class="erweima">
-                        <div class="er">
-                            <img src="images/er_wechat.png" />
-                            扫一扫加微信
-                        </div>
-                        <div class="er marRight">
-                            <img src="images/er_public.png" />
-                            微信公众号
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
-<!--<script src="js/jquery-3.2.1.min.js" type="javascript"></script>-->
-<script src="js/jquery-1.9.1.min.js"></script>
-<script src="js/Mds.onePic.1.0.js"></script>
-<script src="js/typed.js"></script>
-<script>
-    $('#slide').MdsSlideFade({
-        pageNum: true,time: '5000'
-    });
-
-    $("#texiaoFont-1").typed({
-        strings: ["平面设计师", "UI/UX  Designer", "网页设计师", "电商设计师"],
-        loop: true,
-        startDelay: 1000,
-        backDelay: 1000,
-        typeSpeed: 30,
-        showCursor: true,
-        cursorChar: '|',
-        autoInsertCss: true
-    });
-    $("#texiaoFont-2").typed({
-        strings: ["视界", "情怀", "品味", "乐趣"],
-        loop: true,
-        startDelay: 1000,
-        backDelay: 1000,
-        typeSpeed: 50,
-        showCursor: true,
-        cursorChar: '|',
-        autoInsertCss: true
-    });
-</script>
